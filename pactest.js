@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, ".heavenlyfood.cn") || shExpMatch(host, "(*heavenlyfood.cn)")){
-        return "PROXY 175.6.66.48:3128";
+        return "PROXY 59.38.222.96:3128";
 
     }
 
@@ -8,7 +8,7 @@ function FindProxyForURL(url, host) {
 
     if (url.match(".*heavenlyfood\\.cn")) {
 
-        return "PROXY 175.6.66.48:3128";
+        return "PROXY 59.38.222.96:3128";
     } else {
         return "DIRECT";
     }
